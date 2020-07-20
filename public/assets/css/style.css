@@ -1,3 +1,7 @@
+body {
+  background-color: rgb(226, 226, 55);
+}
+
 li {
   padding: 5px;
   margin: 5px;
