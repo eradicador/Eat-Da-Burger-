@@ -24,11 +24,14 @@ li {
 
 .create-form {
   display: inline-block;
-  text-align: center;
   padding: 5px;
   margin: 5px;
 }
 
+.form {
+  text-align: center;
+}
+
 .form-group {
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
