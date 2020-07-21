@@ -22,10 +22,11 @@ li {
   font-weight: bold;
 }
 
-.create-update-form {
+.create-form {
+  display: inline-block;
+  text-align: center;
   padding: 5px;
   margin: 5px;
-  background: aqua;
 }
 
 .form-group {

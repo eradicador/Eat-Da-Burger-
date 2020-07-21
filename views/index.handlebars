@@ -1,19 +1,21 @@
 <iframe class=main-image width="200" height="130" alt="burger jumping gif"></iframe>
 
 <h1 class="eat-da">Eat da Burger!</h1>
+<div class="row">
+  <div class="col-4">
+    <ul>
+      {{#each burgers}}
+      {{#unless devoured}}
+      <li>
+        {{name}}
 
-<ul>
-  {{#each burgers}}
-  {{#unless devoured}}
-  <li>
-    {{name}}
-
-    <button class="eat-burger" data-id="{{this.id}}">EAT!</button>
-  </li>
-  {{/unless}}
-  {{/each}}
-</ul>
-
+        <button class="eat-burger" data-id="{{this.id}}">EAT!</button>
+      </li>
+      {{/unless}}
+      {{/each}}
+    </ul>
+  </div>
+</div>
 <h1>Burger devoured!</h1>
 
 <ul>
