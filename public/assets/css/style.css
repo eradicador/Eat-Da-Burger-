@@ -13,6 +13,7 @@ body {
 
 .eat-da{
   text-align: center;
+  color: red;
 }
 
 .column{
@@ -22,7 +23,7 @@ body {
 
 li {
   padding: 5px;
-  margin: 5px;
+  margin-right: 50%;
   background: #faebd7;
 }
 
