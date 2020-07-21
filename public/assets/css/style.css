@@ -6,20 +6,24 @@
   margin-left: auto;
   margin-right: auto;
 }
+
 body {
-  background-color: rgb(226, 226, 55);
+  background-color: rgb(226, 209, 55);
 }
+
 .eat-da{
   text-align: center;
 }
+
+.column{
+  float: left;
+  width: 50%;
+}
+
 li {
   padding: 5px;
   margin: 5px;
   background: #faebd7;
-}
-
-.label {
-  font-weight: bold;
 }
 
 .create-form {
