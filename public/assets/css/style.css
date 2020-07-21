@@ -1,8 +1,14 @@
+.main-image {
+  background-image: url(../images/burger.gif);
+  background-position: center;
+  background-size: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 body {
-  background-image: url(../images/burger.png);
   background-color: rgb(226, 226, 55);
 }
-
 li {
   padding: 5px;
   margin: 5px;
