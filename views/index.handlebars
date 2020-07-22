@@ -1,4 +1,5 @@
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+  integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
 <iframe class=main-image width="200" height="130" alt="burger jumping gif"></iframe>
 <h1 class="eat-da">Eat da Burger!</h1>
@@ -10,28 +11,29 @@
       <input type="text" id="newBurger" name="name">
     </div>
 
-    <button type="submit" style="background-color: teal;">Submit</button>
-    <P>Enter a burger you want to eat Click the "Submit" button</P>
+    <button type="submit" class="bg-info text-white">Submit</button>
+    <P class="font-weight-bold text-danger">Enter a burger you want to eat Click the "Submit" button</P>
   </form>
 </div>
 
 <div class="row justify-content-center">
   <div class="col-2 text-right">
+    <h5>New Delicious Burgers</h5>
     <ul>
       {{#each burgers}}
       {{#unless devoured}}
       <li>
         {{name}}
 
-        <button class="eat-burger" data-id="{{this.id}}">Devour it!</button>
+        <button class="eat-burger bg-info" data-id="{{this.id}}">Devour it!</button>
       </li>
       {{/unless}}
       {{/each}}
     </ul>
   </div>
 
-  {{!-- <h1>Burger devoured!</h1> --}}
   <div class="col-2">
+    <h5 class="text-center">Burger devoured!</h5>
     <ul>
       {{#each burgers}}
       {{#if devoured}}

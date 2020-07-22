@@ -8,7 +8,8 @@
 }
 
 body {
-  background-color: rgb(226, 209, 55);
+  background-image: url(../images/burger-background.jpg);
+  height: 100%;
 }
 
 .eat-da{
