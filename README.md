@@ -43,14 +43,8 @@ As a developer i created a restaurant app that lets users input the names of bur
         └── main.handlebars
 ```
 
-## Gif
-
-
 ## Link to deployed app
 https://github.com/eradicador/Eat-Da-Burger-
-
-## Link to app video walkthrough
-
 
 ## Badge
 ![GitHub license](https://img.shields.io/badge/license-MIT-brightgreen)
