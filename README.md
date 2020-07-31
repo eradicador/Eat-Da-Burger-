@@ -44,7 +44,7 @@ As a developer i created a restaurant app that lets users input the names of bur
 ```
 
 ## Link to deployed app
-https://github.com/eradicador/Eat-Da-Burger-
+https://secret-eyrie-47794.herokuapp.com/
 
 ## Badge
 ![GitHub license](https://img.shields.io/badge/license-MIT-brightgreen)
